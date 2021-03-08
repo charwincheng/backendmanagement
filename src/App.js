@@ -1,12 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
+import { Button } from 'antd';
 
 function App() {
-  return (
-    <div>
-      <p>Hello World! How are you!</p>
-    </div>
-  );
+  return <Button type="primary">Click Me</Button>;
 }
 
 export default App;
